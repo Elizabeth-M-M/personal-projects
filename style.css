@@ -9,7 +9,7 @@ serif; */
     font-size: 62.5%;
 
     --colgreen:#5C8001;
-    --collight:#e0b78b;
+    --collight:#dfbc98;
     --colwhite:#fff;
     --coldark:#e2a113;
     --coldarkgray:rgb(0, 0, 0);
@@ -29,7 +29,7 @@ serif; */
 }
 body{
     font-size: 1.6rem;
-    line-height: 1.6;
+    line-height: 1.7;
     font-family: 'Roboto',
     sans-serif;
     color: var(--coldark);
@@ -48,6 +48,9 @@ button{
     font-size: inherit;
     padding: var(--buttonpadding);
     border-radius: var(--borderradius);
+}
+h2, h3, h4, p{
+    margin-bottom: 1rem;
 }
 
 /* Header section */
@@ -153,6 +156,60 @@ opacity: 0.4;
     width: 100%;
     box-shadow: var(--box-shadow);
     height: 100vh;
+}
+/* intro section */
+.intro{
+    height: 80vh;
+    width: 100%;
+    background-color: var(--collight);
+}
+.intro-container{
+    width: 70%;
+    margin: auto;
+    padding: 5rem 0 10rem;
+    text-align: center;
+    color: var(--coldarkgray);
+    max-width: 50rem;
+
+}
+.intro h2{
+    font-size: 4rem;
+    color: var(--coldark);
+}
+.intro h4 {
+    font-size: 2rem;
+    margin: 0.8rem 0 5rem;
+}
+/* services section */
+.services{
+    background-color: var(--colgreen);
+       
+            
+            padding: 5rem 0;
+            text-align: center;
+            color: var(--coldarkgray);
+}
+.services h1{
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    color: var(--coldark);
+}
+.services-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.services-card{
+    padding: 2rem;
+    background-color: #e0b78b;
+    margin: 1rem;
+    border-radius: var(--borderradius);
+    width: 40rem;
 }
 
 /* screen 76rem */
