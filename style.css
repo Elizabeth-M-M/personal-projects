@@ -8,10 +8,10 @@ serif; */
 :root{
     font-size: 62.5%;
 
-    --colgreen:#5C8001;
-    --collight:#dfbc98;
+    --colblue: #152924;
+    --collight: #dac969;
     --colwhite:#fff;
-    --coldark:#e2a113;
+    --coldark: #b6798b;
     --coldarkgray:rgb(0, 0, 0);
     --colblack:rgb(26, 20, 20);
     --colpink:#C1292E;
@@ -55,7 +55,7 @@ h2, h3, h4, p{
 
 /* Header section */
 header{
-    background-color: var(--colgreen);
+    background-color: var(--colblue);
     height: 100vh;
     color: var(--collight);
     overflow: hidden;
@@ -182,7 +182,7 @@ opacity: 0.4;
 }
 /* services section */
 .services{
-    background-color: var(--colgreen);
+    background-color: var(--colblue);
        
             
             padding: 5rem 0;
