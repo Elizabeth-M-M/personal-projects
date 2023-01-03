@@ -1,0 +1,23 @@
+
+@media (min-width:768px){
+.inputControl {
+    width: 50%;
+  }
+  .image-size{
+    width: 70%;
+  }
+  .image-text-holder{
+    width: 80%;
+  }
+}
+.img-size-round{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.img-size-round img{
+  width: 100%;
+  height: 100%;
+}
